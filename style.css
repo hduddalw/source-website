@@ -1,0 +1,16 @@
+p {
+    color: #ff5aac;
+    font-size: 48px;
+    letter-spacing: 30px;
+    font-family: 'Gemunu Libre', sans-serif;
+
+} 
+
+p:hover {
+    color: green;
+    font-size: 72px;
+}
+
+a:focus {
+    font-size: 80px;
+}
