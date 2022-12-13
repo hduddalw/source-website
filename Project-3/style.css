@@ -1,0 +1,63 @@
+* {
+    /* box-sizing: border-box; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(-45deg, #3f3f3f, #bcbcbc, #70838a, #90b2aa);
+	background-size: 500% 500%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    text-align: justify;
+    line-height: 40pt;
+
+}
+
+.container{
+    width: 50vw;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.container img{
+    height: 1em;
+    width: auto;
+}
+
+.imgcontainer{
+    position: absolute;
+    z-index: +2;
+}
+
+[draggable=true] {
+    cursor: move;
+  }
+  
+  .drag {
+    overflow: scroll;
+    height: 300px;
+    cursor: move;
+}
